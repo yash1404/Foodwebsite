@@ -1,0 +1,508 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+.navbar{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+background-color:white;
+box-shadow: 0px 2px 0.5px;
+ 
+}
+
+.logohead{
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  margin-left:50px;
+}
+
+ul,ul li{
+  display:inline-flex; 
+margin-right:50px; 
+}
+ ul li a{
+  color:#000;
+}
+ ul li a:hover{
+
+  color:orangered;
+  font-weight:700;
+  font-size:22px;
+  transition-duration: 5 ease;
+}
+
+.picheight{
+  height:55px;
+  width:55px;
+}
+.fontsize{
+  font-size:20px;
+  margin-top:6px;
+}
+
+.active{
+  color:orangered;
+}
+
+
+li a{
+  text-decoration: none;
+}
+
+
+@media only screen and ( max-width:480px){
+  .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  background-color:white;
+  box-shadow: 0px 2px 0.5px; 
+  }
+  .logohead{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+  }
+  ul,ul li{
+    display:inline-flex; 
+  margin-right:13px; 
+  }
+  ul li a{
+    color:#000;
+  }
+  ul li a:hover{
+
+    color:orangered;
+    font-weight:400;
+    font-size:14px;
+    transition-duration: 5 ease;
+  }
+  .picheight{
+    height:35px;
+    width:35px;
+  }
+  .fontsize{
+    font-size:13px;
+    margin-top:6px;
+  }
+}
+/* home*/
+.home{
+min-height:100vh;
+min-width:100vw;
+}
+
+.background{
+  height:580px;
+  width:878px;
+
+}
+.background4{
+  height:580px;
+  width:454.5px;
+}
+
+.content{
+  position:absolute;
+  top:58%;
+  left:4%;
+  
+}
+.top{
+  font-family:Langar;
+  text-shadow: black 1px 4px;
+  font-size:2.5em;
+  color:#fff;
+
+}
+
+.para{
+  color:bisque; 
+  font-size:1.9;
+  letter-spacing: 2px;
+  font-weight :500;
+}
+.button{
+  background-color: white;
+  border: solid black 1px;
+  font-weight:600;
+  padding:5px 5px;
+  color:orangered;
+}
+@media only screen and ( max-width:480px){
+ 
+  .home{
+    min-height:80vh;
+    min-width:80vw;
+    }
+    .background{
+      height:200px;
+      width:480px;    
+    
+    }
+    .background4{
+      height:250px;
+      width:480px;
+    } 
+ 
+    .content{
+      position:absolute;
+      top:20%;
+      left:26%;
+      
+    }
+    .top{
+      font-family:Langar;
+      font-size:2em;
+      color:#fff;
+    
+    }
+    
+   
+
+}
+/* about*/
+.box{
+  margin-top:4em;
+}
+
+.rectangle{
+font-size:2em;
+text-transform: capitalize;
+}
+.Loreum{
+  font-size:20px;
+}
+
+.aboutimage{
+  margin-left:80px;
+  height:400px;
+  width:450px;
+  border:3px solid cyan;
+}
+@media only screen and ( max-width:480px){
+  .box{
+    margin-top:2em;
+    font-size:1em;
+  }
+  
+  .rectangle{
+  font-size:1.7em;
+  text-transform: capitalize;
+  }
+  .Loreum{
+    font-size:13px;
+  }
+  .aboutimage{
+    margin-left:40px;
+    border:3px solid cyan;
+    height:350px;
+    width:350px;
+  } 
+}
+
+/* menu*/
+#menu{
+  background-color:cornsilk;
+}
+.foodmenu{
+  margin-top:1.5em;
+  border:2px solid orangered;
+}
+.fooditems{
+  color:black;
+  font-weight:700;
+  background-color: orangered;
+  text-align:center;
+  text-transform: capitalize;
+  border:2px solid black;
+}
+@media only screen and (max-width:480px){
+  .foodmenu{
+    margin-top:1.5em;
+    border:2px solid orangered;
+    margin-left:90px;
+  } 
+}
+
+/*chefs*/
+.box1{
+ text-align:center;
+ margin-top:2em;
+
+}
+.rectangle1{
+font-size:2em;
+text-transform: capitalize;
+text-align:center;
+
+}
+
+.mains{
+  border:2px solid black;
+  margin-right:72px;
+
+}
+.mains1{
+  border:2px solid black;
+  margin-right:32px;
+
+}
+.mains2{
+  border:2px solid black;
+  margin-right:72px;
+
+}
+@media only screen and (max-width:480px){
+  .mains{
+    border:2px solid black;
+    margin-right:6.5em;
+    margin-top:15px;
+    margin-left:68px;
+  }
+  .mains1{
+    border:2px solid black;
+    margin-right:77px;
+    margin-top:15px;
+    margin-left:55px;
+  }
+  .mains2{
+    border:2px solid black;
+    margin-right:104px;
+  margin-top:15px;
+  margin-left:68px;
+  }
+  
+
+
+
+}
+
+
+/*contact*/
+#contact{
+  margin-top:30px;
+background-color: black;
+min-height:68vh;
+
+
+}
+
+.flex{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  .callme{
+    background-color:white;
+    padding:7px 7px;
+    margin-right:5.9em;
+    margin-top:2em;
+    border:1px solid orangered;
+  }
+
+  @media only screen and (max-width:480px){
+    #contact{
+      margin-top:30px;
+    background-color: black;
+    min-height:68vh;
+    
+    
+    }
+    .rectangle{
+font-size:20px;
+    }
+    .flex{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .callme{
+      background-color:white;
+      padding:3px 3px;
+      margin-right:5.9em;
+      margin-top:2em;
+      border:1px solid orangered;
+      border-radius: 20px;
+    }
+    .phone{
+      font-size:10px;
+    }
+    .wheat{
+      font-size:13px;
+    }
+  }
+
+  .table{
+    margin-top:3em;
+    background-color:white;
+    height:22em;
+    padding:10px 10px;
+     
+    
+  }
+
+  .name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+  }
+
+  .phone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top:12px;
+  }
+  .time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:12px;
+  }
+
+  .message{
+    margin-top:12px;
+    margin-left:30px;
+  }
+
+  .reservation{
+    background-color:orangered;
+    border:1px solid black;
+    margin-left:12em;
+    padding:2px 2px;
+
+  }
+  @media only screen and (max-width:480px){
+    .table{
+      margin-top:3em;
+      background-color:white;
+      height:22em;
+      padding:10px 10px;
+        
+  }
+  .message{
+    margin-top:12px;
+    margin-left:-10px;
+    
+    
+  }
+  .phone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-top:15px;
+    
+  }
+
+.phonenumber{
+height:30px;
+width:178px;
+margin-right:45px;
+margin-left:18px;
+font-size:14px;
+
+}
+.guest{
+  height:30px;
+width:178px;
+margin-right:18px;
+font-size:14px;
+
+}
+}
+
+  /*footer*/
+
+  footer{
+    background-color: orangered;
+    min-height:10vh;
+  }
+
+  .logohead2{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon{
+    margin-top:11px;
+  }
+  .social{
+    height:30px;
+  }
+  .social1{
+height:55px;
+width:55px;
+  }
+
+  .klassy{
+    font-size:18px;
+    font-weight:300;
+    margin-bottom:4px;
+  }
+  .logohead2{
+    margin-top:0px;
+  }
+
+  .copy{
+    font-weight:700;
+    margin-left:105px;
+  }
+
+  .design{
+    margin-left:10em;
+    font-weight:600;
+    
+    padding:0px 0px;
+  }
+
+  @media only screen and ( max-width:480px){
+
+    footer{
+      min-height:2vh;
+    }
+    .social{
+      height:16px;
+      margin-left:10px;
+    }
+    .social1{
+      height:30px;
+      width:30px;
+        }
+
+        .klassy{
+          font-size:10px;
+          font-weight:500;
+        }
+        .logohead2{
+          margin-bottom:10px;
+        }
+  
+        .copy{
+          
+         position: absolute;
+         margin-top:-10%;
+         margin-left:68%;
+          font-size:10px;
+          font-weight:600;
+          text-align:right;
+          
+        }
+        .design{
+          position:absolute;
+          margin-left:74%;
+          margin-top:-13%;
+          font-weight:500;
+          font-size:10px;
+          
+        }
+  
+  }
